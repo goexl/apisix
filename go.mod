@@ -1,4 +1,4 @@
-module github.com/goexl/wanip
+module github.com/goexl/apisix
 
 go 1.18
 
