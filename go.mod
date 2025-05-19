@@ -1,6 +1,7 @@
 module github.com/goexl/apisix
 
-go 1.18
+go 1.23.0
+
 toolchain go1.24.1
 
 require (
@@ -11,10 +12,10 @@ require (
 )
 
 require (
-	github.com/goexl/http v0.0.5 // indirect
+	github.com/goexl/http v0.2.1 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.26.0 // indirect
-	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
+	go.uber.org/zap v1.27.0 // indirect
+	golang.org/x/net v0.40.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
 )
