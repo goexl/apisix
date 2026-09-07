@@ -1,13 +1,11 @@
 module github.com/goexl/apisix
 
-go 1.23.0
-
-toolchain go1.24.1
+go 1.27
 
 require (
 	github.com/go-resty/resty/v2 v2.17.2
 	github.com/goexl/exc v0.0.5
-	github.com/goexl/gox v1.9.2
+	github.com/goexl/gox v1.9.3
 	github.com/goexl/simaqian v0.4.0
 )
 
